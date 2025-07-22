@@ -1,6 +1,5 @@
 {/* Header */}
 import { Coffee } from 'lucide-react';
-import styles from '../css/index.module.css';
 
 export default function Header() {
   return (
