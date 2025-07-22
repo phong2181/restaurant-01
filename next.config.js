@@ -1,10 +1,11 @@
 // next.config.js
 const isProd = process.env.NODE_ENV === 'production';
 
-module.exports = {
+/** @type {import('next').NextConfig} */
+const nextConfig = {
   output: 'export',
-  images: {
-    unoptimized: true,
-  },
-  assetPrefix: isProd ? '/restaurant-01/' : '',
+  images: { unoptimized: true },
 };
+
+
+export default nextConfig;
